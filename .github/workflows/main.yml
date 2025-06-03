@@ -16,5 +16,5 @@ jobs:
           PERSONAL_ACCESS_TOKEN: ${{ secrets.REPO_SCOPE }}
         with:
           path-to-signatures: "signatures.json"
-          path-to-document: "https://github.com/juggernot325/strange_wall/blob/master/ICLA./ICLA.md"
+          path-to-document: "https://github.com/juggernot325/strange_wall/blob/master/ICLA.md"
           branch: "master"
